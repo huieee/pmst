@@ -2,7 +2,6 @@
 <html >
 <head>
   <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
   <title>CCR 50th Anniversary</title>
   
   
@@ -14,7 +13,7 @@
 }
 
 #myinput {
-  width: 100%;
+  width: 100vw;
   font-size: 16px;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
@@ -26,6 +25,7 @@
   width: 100%;
   border: 1px solid #ddd;
   font-size: 18px;
+
 }
 
 #myTable th, #myTable td {
@@ -37,10 +37,11 @@
   border-bottom: 1px solid #ddd;
 }
 
+
 #myTable tr.header, #myTable tr:hover {
   background-color: #f1f1f1;
 }
-
+tr:nth-child(even){background-color: #effafc}
   .header img {
   float: left;
   width: 64px;
@@ -71,7 +72,8 @@
 
 	<input type="search" id=myinput class="light-table-filter" data-table="order-table" placeholder="Filter">
 
-	 <section class="table-responsive">   
+	<!-- <div class="table-responsive">-->  
+
 	<table id=myTable class="order-table table">
 		<thead>
 			<tr>
@@ -2635,7 +2637,7 @@
 <tr><td bgcolor =#ffffcc>JACELINE FELINE JOHNSON</td><td bgcolor =#ffffcc>2610</td><td bgcolor =#ffffcc>1550</td><td bgcolor =#ffffcc>6636</td></tr>
 		</tbody>
 	</table>
-</section>
+
 </section>
   
     <script src="index.js"></script>
